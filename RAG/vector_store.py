@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Pinecone
 from langchain.schema import Document
 from pinecone import Pinecone as PineconeClient
-from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv 
 import argparse
 
 parser = argparse.ArgumentParser(description="스크립트 설명")
