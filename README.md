@@ -13,7 +13,8 @@ deepvoicephishing/
 
 📌 0. requirements.env
 
-> Setting Open AI and Pinecone API key  
+> Setting Open AI and Pinecone API key
+
 > Open AI와 Pinecone API key 설정
 
 ``` py
@@ -25,6 +26,7 @@ PINECONE_ENV=us-east1-gcp
 📌 1. data_processing.py
 
 > Split the KorCCVi_v2_cleaned.csv file into chunks based on the specified chunk size
+
 > 설정한 chunk size에 따라 KorCCVi_v2_cleaned.csv 파일을 청크 단위로 분할
 
 ```py
