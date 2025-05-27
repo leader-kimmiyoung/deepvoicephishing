@@ -2,11 +2,9 @@
 # 데이터 전처리 코드
 
 import pandas as pd
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from dotenv import load_dotenv, find_dotenv
-import os
-import pickle
+from langchain.text_splitter import RecursiveCharacterTextSplitter 
+from dotenv import load_dotenv 
+import os 
 import argparse
 
 parser = argparse.ArgumentParser(description="스크립트 설명")
