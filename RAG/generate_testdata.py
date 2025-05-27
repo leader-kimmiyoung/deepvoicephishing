@@ -6,7 +6,7 @@ import csv
 from tqdm import tqdm
 from dotenv import load_dotenv
 
-load_dotenv("requirements(test).env")
+load_dotenv("requirements.env")
 
 GPT_API_KEY = os.getenv("OPENAI_API_KEY")
 
