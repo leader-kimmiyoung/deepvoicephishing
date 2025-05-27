@@ -18,7 +18,7 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENV")
 
 def load_chunks_from_csv(size):
-    file_path = f"./processed_data/chunks({size}).csv" 
+    file_path = f"./chunk_data/chunks({size}).csv" 
     try:
         # CSV 파일 로드
         df = pd.read_csv(file_path)
