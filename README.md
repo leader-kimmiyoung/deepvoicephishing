@@ -1,6 +1,6 @@
 # 📁 프로젝트: deepvoicephishing
 
-## 🔍 구성 요소: RAG 기반 음성 피싱 탐지
+## 🔍 RAG 기반 보이스피싱 탐지
 ``` 
 deepvoicephishing/
 ├─ RAG/
