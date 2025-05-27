@@ -12,7 +12,7 @@ parser.add_argument('--size', type=int, default=256, help='chunk의 크기')
 args = parser.parse_args()
 
 # 환경 변수 로드
-load_dotenv("requirements(test).env")
+load_dotenv("requirements.env")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENV")
