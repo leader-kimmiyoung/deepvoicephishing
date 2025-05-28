@@ -1,5 +1,53 @@
 # 📁 프로젝트: deepvoicephishing
 
+## 🔍 TASK1: Deep voice classification
+``` 
+deepvoicephishing/
+├─ task1/
+│  ├─ data_augmentation.py
+│  ├─ train.py
+│  └─ test.py
+```
+
+📌 1. data_augmentation.py
+
+> You need a dataset with the following configuration
+
+> 다음과 같은 구성의 데이터 셋이 필요
+
+``` 
+task1/
+├─ 0/
+│  └─ original/
+│      ├─ 1.m4a
+│      ├─ 2.m4a 
+│      ├─ ...
+├─ 1/
+│  └─ original/
+│      ├─ 1.m4a
+│      ├─ 2.m4a 
+│      ├─ ...
+```
+
+```
+make_reverse: original m4a를 역재생하여 m4a로 저장
+m4a_to_wav: m4a를 10초씩 split 하여 wav로 저장
+random_split: m4a를 랜덤한 시작점에서 10초씩 split하여 wav로 저장
+```
+
+
+📌 2. train.py
+
+>  Save the model to ‘./fine_tuned_model’ using wav2vec2.0
+
+> wav2vec2.0을 사용하여 모델을 './fine_tuned_model'에 저장 
+
+📌 3. test.py
+
+>  Test the saved ‘./fine_tuned_model’ (the sample data uses m4a)
+
+> 저장된 './fine_tuned_model'을 test (sample 데이터는 m4a 사용)
+
 ## 🔍 RAG 기반 보이스피싱 탐지
 ``` 
 deepvoicephishing/
