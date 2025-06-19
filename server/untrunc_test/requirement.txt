@@ -1,0 +1,7 @@
+flask==2.0.3
+pydub
+numpy
+gunicorn
+websocket-client
+redis==4.3.6
+requests==2.27.1
