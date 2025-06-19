@@ -26,7 +26,7 @@ RUN apt-get install -y ffmpeg
 
 # 환경 변수 설정 
 ENV PYTHONUNBUFFERED=1
-ENV PINECONE_API_KEY=pcsk_vhb28_A9wigSKvvEsEW2HrigpAUuXHPTr31p7HyLYxDWrHX8CxpTG3Ch6uDC9R5FF9kwU
+ENV PINECONE_API_KEY=""
 ENV PINECONE_ENV=us-east1-gcp
 
 # 포트 설정
